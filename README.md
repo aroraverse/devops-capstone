@@ -134,6 +134,10 @@ PS C:\Users\Arora> git log --format='%an <%ae>' | sort | uniq -c
   22 Sarthak Arora <aroraverse@users.noreply.github.com>
 ```
 
+The same history on GitHub (`aroraverse/devops-capstone`):
+
+![GitHub commits](screenshots/02-github-commits-aroraverse.png)
+
 `.gitignore` keeps `.env`, `__pycache__/`, `node_modules/`, `.venv/`, Terraform state and `*.tfvars` out of Git:
 
 ```powershell
