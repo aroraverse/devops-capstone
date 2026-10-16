@@ -2,12 +2,12 @@
 backend:
   image:
     repository: ghcr.io/aroraverse/helpdesk-backend
-    tag: "4c42804747828f60908696bd19be69c0a75bed33"
+    tag: "359c9892e02be6f5ce17e940f0b2caa5df547662"
 frontend:
   replicas: 2 # GitOps demo: change to 3, commit, push, watch Argo CD scale it
   image:
     repository: ghcr.io/aroraverse/helpdesk-frontend
-    tag: "4c42804747828f60908696bd19be69c0a75bed33"
+    tag: "359c9892e02be6f5ce17e940f0b2caa5df547662"
 ingress:
   enabled: true
   host: gitops.helpdesk.local # separate host so it can run next to the Helm (dev) install
